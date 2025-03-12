@@ -1,7 +1,7 @@
 body {
     font-family: Roboto;
 }
-.header-logo, a {
+.text-logo, a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -9,7 +9,7 @@ body {
     background-color: #1F2937;
     
 }
-.header-image {
+.image-logo {
     width: 70px;
     height: 50px;
     
