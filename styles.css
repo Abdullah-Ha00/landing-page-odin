@@ -1,12 +1,13 @@
 body {
     font-family: Roboto;
 }
-.text-logo, a {
+.text-logo, a, .sub-text {
     font-size: 18px;
     color: #E5E7EB;
 }
-.header {
+.header, .welcome {
     background-color: #1F2937;
+    
     
 }
 .image-logo {
@@ -28,9 +29,15 @@ ul {
 .header {
     display: flex;
     justify-content: space-evenly;
+    
 }
 .logo {
     display: flex;
     flex-direction: column;
     
+}
+.welcome-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
 }
