@@ -1,5 +1,7 @@
 body {
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
 }
 a, .sub-text, .action-info, .footer-content {
     font-size: 18px;
@@ -77,4 +79,13 @@ button {
 .image-text {
     font-size: 18px;
     color: #000000;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.footer-content {
+    white-space: pre;
 }
