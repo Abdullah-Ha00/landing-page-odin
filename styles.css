@@ -1,11 +1,15 @@
 body {
     font-family: Roboto;
 }
-.text-logo, a, .sub-text {
+a, .sub-text, .action-info, .footer-content {
     font-size: 18px;
     color: #E5E7EB;
 }
-.header, .welcome {
+.text-logo {
+    font-size: 24px;
+    color:#F9FAF8
+}
+.header, .welcome,.footer {
     background-color: #1F2937;
     
     
@@ -40,4 +44,37 @@ ul {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
+button {
+    background-color: #3882F6;
+    color:#FFFFFF
+}
+.added-value {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.quote {
+    background-color: #E5E7EB;
+}
+.quote-text {
+    font-size:36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937 ;
+}
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+}
+.subscribe {
+    background-color: #3882F6;
+}
+.action {
+    font-size: 20px;
+    color: #FFFFFF
+}
+.image-text {
+    font-size: 18px;
+    color: #000000;
 }
