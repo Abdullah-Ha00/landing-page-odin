@@ -55,7 +55,7 @@ ul {
     color: #F9FAF8;
     margin-bottom: 0;
 }
-button {
+button,.subscribe {
     background-color: #3882F6;
     color:#FFFFFF;
     width: 100px;
@@ -91,11 +91,9 @@ button {
     align-self: flex-end;
     margin-top: 0;
     padding-right: 400px;
-    
-}
-.subscribe {
-    background-color: #3882F6;
-}
+    }
+
+
 .action {
     font-size: 20px;
     color: #FFFFFF
@@ -154,4 +152,24 @@ button {
 }
 .text-image p {
     font-size: 18px;
+}
+
+.box {
+    display: flex;
+    align-self: center;
+    gap: 60px;
+    
+}
+.subscribe {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin: 100px 130px 100px 250px;
+    width: 1000px;
+    height: 150px;
+}
+.box button {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    border: 2px solid #FFFFFF;
 }
